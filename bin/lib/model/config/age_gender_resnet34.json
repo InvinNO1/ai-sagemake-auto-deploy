@@ -1,0 +1,10 @@
+{
+  "id": "age_gender_resnet34",
+  "apiUrl": "age_gender_resnet34",
+  "initialVariantWeight": 1,
+  "instanceType": "ml.g4dn.xlarge",
+  "initialInstanceCount": 1,
+  "framework": "custom",
+  "frameworkVersion": "1.4-cuda10.1-cudnn7-devel",
+  "removed": true
+}

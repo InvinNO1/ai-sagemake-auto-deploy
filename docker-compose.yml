@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  sagemaker_local:
+    build:
+      context: docker
+      dockerfile: ${docker_file}
+      args:
+        fs_version: ${fs_version}
+        model_id: ${model_id}
+    image: ${model_id}
+    command:
+      - serve
+    ports:
+      - 8080:8080
+    volumes:
+      - ./weightAndConfig/${model_id}:/opt/ml/model

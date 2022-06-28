@@ -1,0 +1,40 @@
+{
+  "name": "ai-mobile-app",
+  "version": "0.1.0",
+  "bin": {
+    "cdk": "bin/cdk.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "create": "node script/run.js create",
+    "deploy": "node script/run.js deploy",
+    "remove": "node script/run.js remove",
+    "local": "node script/run.js local"
+  },
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "@types/targz": "^1.0.1",
+    "ansi-colors": "^4.1.1",
+    "aws-cdk": "2.12.0",
+    "aws-sdk": "^2.1087.0",
+    "jest": "^26.4.2",
+    "targz": "^1.0.1",
+    "tree-extended": "^3.0.1",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^9.0.0",
+    "tsconfig-paths": "^3.12.0",
+    "typescript": "~3.9.7",
+    "yargs": "^17.3.1"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-lambda-python-alpha": "^2.12.0-alpha.0",
+    "aws-cdk-lib": "2.12.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.16"
+  }
+}

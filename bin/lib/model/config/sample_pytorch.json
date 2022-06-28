@@ -1,0 +1,10 @@
+{
+  "id": "sample_pytorch",
+  "apiUrl": "sample_pytorch",
+  "initialVariantWeight": 1,
+  "memorySizeInMb": 1024,
+  "maxConcurrency": 20,
+  "framework": "pytorch",
+  "frameworkVersion": "latest",
+  "removed": false
+}

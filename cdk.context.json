@@ -1,0 +1,6 @@
+{
+  "account": "123123123123",
+  "region": "ap-northeast-1",
+  "project_name": "ai-sagemake-deploy",
+  "enable-api-gateway": true
+}

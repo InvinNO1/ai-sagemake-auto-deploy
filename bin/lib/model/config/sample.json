@@ -1,0 +1,10 @@
+{
+  "id": "sample",
+  "apiUrl": "sample",
+  "initialVariantWeight": 1,
+  "memorySizeInMb": 1024,
+  "maxConcurrency": 20,
+  "framework": "tensorflow",
+  "frameworkVersion": "latest",
+  "removed": false
+}

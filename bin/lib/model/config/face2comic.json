@@ -1,0 +1,10 @@
+{
+  "id": "face2comic",
+  "apiUrl": "face2comic",
+  "initialVariantWeight": 1,
+  "memorySizeInMb": 1024,
+  "maxConcurrency": 20,
+  "framework": "tensorflow",
+  "frameworkVersion": "latest",
+  "removed": true
+}
