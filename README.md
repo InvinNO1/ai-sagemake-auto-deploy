@@ -67,7 +67,3 @@ $ ./run.sh deploy sample -p profile -e prod -u
 * Run command `./run.sh remove <id> <-p aws_profile> <-e env_name> [-u]` to remove model
 
 * Show help: `./run.sh remove -h`
-
-
-# Weight and config model
-Because the weight file is large in size, it should be stored on dropbox https://www.dropbox.com/sh/pllp7fhryas5ees/AADTvgSCVIJHO2g9U4VwreqHa?dl=0. If there are changes, copy them to the source code to deploy but don't commit them.
